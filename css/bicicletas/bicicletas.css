@@ -9,6 +9,7 @@
   gap: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 0px right 0px;
 }
 .bicicletas-imagem {
   display: grid;
@@ -62,6 +63,7 @@
 }
 .bicicletas-conteudo img {
   width: 24px;
+  margin-right: 8px;
 }
 
 @media (max-width: 800px) {
@@ -73,6 +75,7 @@
     gap: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
+    background: none;
   }
 }
 
